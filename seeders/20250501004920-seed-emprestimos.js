@@ -42,7 +42,7 @@ module.exports = {
         dataEmprestimo: new Date(now.getTime() - i * 24 * 60 * 60 * 1000), // Data de empréstimo retroativa
         dataDevolucao: new Date(now.getTime() - (i - 7) * 24 * 60 * 60 * 1000), // Data de devolução retroativa
         valorTotal: (Math.random() * 100 + 20).toFixed(2), // Valor entre 20 e 120
-        statusEmprestimo: i % 2 === 0 ? 'ATIVO' : 'FINALIZADO', // Alterna entre ATIVO e FINALIZADO
+        status: i % 2 === 0 ? 'ATIVO' : 'FINALIZADO', // Alterna entre ATIVO e FINALIZADO
         clienteId: clienteId,
         bikeId: bikeId,
         createdAt: now,

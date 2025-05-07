@@ -1,9 +1,10 @@
 {
   "development": {
     "username": "root",
-    "password": "",
+    "password": "1234",
      "database": "db_bike",
-    "host": "127.0.0.1",
+    "host": "mysql_bike",
+    "port": 3306,
     "dialect": "mysql"
   }
 }

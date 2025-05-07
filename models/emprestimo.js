@@ -25,7 +25,7 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.FLOAT,
       allowNull: false
     },
-    statusEmprestimo: {
+    status: {
       type: DataTypes.STRING,
       allowNull: false
     },
